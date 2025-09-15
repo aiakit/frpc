@@ -9,7 +9,7 @@ APP_PATH="/usr/src"
 WAIT_PIDS=()
 
 function stop_frpc() {
-    bashio::log.info "Stop frpc oidc "
+    bashio::log.info "Stop frpc"
     kill -15 "${WAIT_PIDS[@]}"
 }
 

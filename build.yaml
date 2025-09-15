@@ -8,7 +8,7 @@ build_from:
 labels:
   org.opencontainers.image.title: Frpc
   org.opencontainers.image.description: frpc for homeassistant
-  org.opencontainers.image.source: https://github.com/aiakit/frpc-oidc/blob/main/logo.png
+  org.opencontainers.image.source: https://github.com/aiakit/frpc/blob/main/logo.png
   org.opencontainers.image.licenses: Apache License 2.0
 
 args:
