@@ -1,0 +1,29 @@
+name: Frpc
+version: 1.0.0
+slug: frpc_homeassistant
+description: FRP Client add-on for Home Assistant with OIDC support
+url: https://github.com/aiakit/frpc
+arch:
+  - armhf
+  - armv7
+  - aarch64
+  - amd64
+  - i386
+startup: application
+host_network: true
+init: false
+map:
+  - addons:rw
+  - share:rw
+options:
+  server_addr: xxx.xxx.xxx.xxx
+  server_port: 7000
+  name: web
+  auto_token: xxx
+  custom_domains: xxx.homingai.com
+schema:
+  server_addr: str
+  server_port: int
+  name: str
+  auto_token: str
+  custom_domains: str
