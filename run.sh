@@ -69,7 +69,7 @@ serverAddr = "${SERVER_ADDR}"
 serverPort = ${SERVER_PORT}
 
 auth.method = "token"
-auto.token = "${AUTH_TOKEN}"
+auth.token = "${AUTH_TOKEN}"
 
 [[proxies]]
 name = "${PROXY_NAME}"
