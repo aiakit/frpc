@@ -5,4 +5,3 @@ configuration:
       - Provides a simple frpc client configuration
       - Supports remote access to internal network services
       - Convenient connection management
-      - Adds OIDC-based identity verification for multiple HomeAssistant instances, enhancing security
