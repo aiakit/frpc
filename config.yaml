@@ -19,11 +19,11 @@ options:
   server_addr: xxx.xxx.xxx.xxx
   server_port: 7000
   name: web
-  auto_token: xxx
+  auth_token: xxx
   custom_domains: xxx.homingai.com
 schema:
   server_addr: str
   server_port: int
   name: str
-  auto_token: str
+  auth_token: str
   custom_domains: str
