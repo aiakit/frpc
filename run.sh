@@ -55,6 +55,8 @@ serverPort = ${SERVER_PORT}
 
 auth.method = "token"
 auth.token = "${AUTH_TOKEN}"
+transport.poolCount = 5
+transport.protocol = "quic"
 
 [[proxies]]
 name = "${PROXY_NAME}"

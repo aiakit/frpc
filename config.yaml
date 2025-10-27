@@ -1,5 +1,5 @@
 name: Frpc
-version: 1.0.0
+version: 1.0.1
 slug: frpc_homeassistant
 description: FRP Client add-on for Home Assistant with support
 url: https://github.com/aiakit/frpc
