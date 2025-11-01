@@ -6,6 +6,9 @@ ARG FRPC_VERSION
 
 ENV APP_PATH="/usr/src"
 
+# 将本地的 frpc.tar.gz 复制到镜像根目录
+COPY frpc.tar.gz /frpc.tar.gz
+
 # 先检查本地是否有frpc.tar.gz，存在则使用本地文件，否则从远程下载
 RUN \
     if [ -f /frpc.tar.gz ]; then \
